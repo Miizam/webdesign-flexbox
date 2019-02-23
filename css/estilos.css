@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=UnifrakturMaguntia');
+/* Reset de propriedades */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body {
+     font-family: 'UnifrakturMaguntia', cursive;
+     color : gray;
+ }
+     
+     /* Mobile First - CSS do mobile */
+header {
+     display: flex;
+     justify-content: space-between;
+     padding: 5px 5px 0 5px;
+     background-color: black;
+}
+header i {
+    color:white;
+    font-size: 2rem;
+}
+header img{
+    height: 55px;
+    margin-right:calc(50% - (97.5px / 2));
+}
+header nav {
+    display: none;
+}
+
+MAIN {
+    padding-top: 15px;
+    padding-left:10PX;
+    padding-right:10px;
+}
+#sessao-principal {
+    padding-bottom: 15px;
+    border-bottom: 3px gold;
+}
+#sessao-principal figure {
+    display: flex;
+    justify-content: center;
+}
+#sessao-principal figure img {
+    height: 150px;
+    margin-left: -20px;
+}
+#sessao-principal article h1 {
+    height: 80%;
+    margin-top: 15px;
+    font-size: 1.7rem;
+    color: orangered;
+
+
+}
+#sessao-principal article p {
+    width: 90%;
+    margin-top: 15px;
+    font-size: 0.96rem;
+
+}
+#sessao-principal article a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+}
+#produtos {
+    margin:15px;
+}
+#produtos article h2 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border: solid black;
+    background-color: orangered;
+    color:white;
+    padding-right:10px;
+    padding-left: 10px;
+
+}
+#produtos article img {
+    margin: 10px;
+    float: left;
+}
+#produtos article p {
+    font-size: 0.8rem;
+    padding: 10px;
+}
+footer {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: black;
+}
+footer img {
+    float: left;
+    width: 30px;;
+    margin-top: -20px;
+}
+footer p {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+footer img:first-of-type {
+    margin-left: 15px;
+}
+@media screen and (min-width: 768px){
+
+}
